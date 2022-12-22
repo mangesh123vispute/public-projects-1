@@ -48,7 +48,7 @@ padding: 0px 12px;
     color: white;
     background-color: black;
     font-family: 'varela round', sans-serif;
-    display: flex;
+    /* display: flex; */
     margin: 23px auto;
     width: 75%;
     border-radius: 12px;
@@ -86,12 +86,22 @@ cursor: pointer;
 }
 
 .songitem{
+    white-space: pre-line;
     height:  50px;
     display: flex;
     background-color: white;
-    width: 80%;
+    width: 30%;
     color: black;
 margin: 12px 0;
-justify-content: center;
+align-items: right;
 align-items: center;
+border-radius: 15px;
+padding-left: 2px;
+
+
+
+}
+.songitem img{
+    align-items: flex-start;
+    border-radius: 11px;
 }
