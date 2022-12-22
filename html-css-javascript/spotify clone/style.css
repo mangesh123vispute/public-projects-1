@@ -48,7 +48,7 @@ padding: 0px 12px;
     color: white;
     background-color: black;
     font-family: 'varela round', sans-serif;
-    /* display: flex; */
+   
     margin: 23px auto;
     width: 75%;
     border-radius: 12px;
@@ -90,18 +90,32 @@ cursor: pointer;
     height:  50px;
     display: flex;
     background-color: white;
-    width: 30%;
+    width:50%;
     color: black;
 margin: 12px 0;
 align-items: right;
 align-items: center;
-border-radius: 15px;
+border-radius: 25px;
 padding-left: 2px;
+justify-content: space-between;
+align-items: center ;
+opacity: 0.7;
 
 
 
 }
+.songitem:hover{
+    opacity: 1.0;
+}
 .songitem img{
-    align-items: flex-start;
-    border-radius: 11px;
+    margin: 0 12px;
+    border-radius: 25px;
+}
+.songlistplay{
+display: flex;
+    margin: 0 15px;
+    align-items: center;
+}
+.songlistplay i{
+    cursor: pointer;
 }
