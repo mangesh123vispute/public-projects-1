@@ -115,7 +115,17 @@ opacity: 0.7;
 display: flex;
     margin: 0 15px;
     align-items: center;
+    
 }
-.songlistplay i{
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.songitem{
     cursor: pointer;
 }
